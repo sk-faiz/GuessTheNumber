@@ -8,7 +8,7 @@ let correctNum = randomNumber();
 
 function randomNumber () {
     let random = Math.random();
-    let number = Math.floor(random * 100) + 1;
+    let number = Math.floor(random * 10) + 1;
     return number;
 }
 
