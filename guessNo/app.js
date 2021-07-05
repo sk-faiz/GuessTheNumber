@@ -52,7 +52,7 @@ function getDialog (dialogType, text) {
 }
 
 function showWon () {
-    const text = "Awesome!, you guess is correctly"
+    const text = "Awesome!, your guess is correct"
     let dialog = getDialog('won', text);
 
     document.getElementById("result").innerHTML = dialog;
